@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 40px;
+    background-color: rgb(6, 146, 95);
+}
+
+.nav-list{
+    display: flex;
+    width: 12.5em;
+    justify-content: space-between;
+}
+
+.nav-items{
+    list-style: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin: 1.5em 0 0 5em;
+}
+
+label{
+    margin-right: 10px;
+}
+
+input{
+    border: 1px solid black;
+    margin: 2em 0;
+}
